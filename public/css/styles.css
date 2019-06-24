@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+nav{
+    margin-bottom: 20px;
+}
+
+nav,
+.btn,
+.btn-large,
+.btn-floating,
+.btn:visited,
+.btn-larg:visited{
+    background-color: #800000;
+}
+
+.btn:hover,
+.btn-large:hover{
+    background-color: rgba(128,0,0,0.7);
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span{
+    color: #800000;;
+}
+
+.dropdown-content li>form>button {
+    font-size: 16px;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline:none;
+    background-color: #fff;
+    cursor: pointer;
+    color: #800000;
+}
+
+.dropdown-content li>form>button:hover {
+    background-color:rgba(0,0,0,0.08)
+}
+
+a{
+    cursor: pointer;
+}
+
+span.card-title{
+    font-weight: bold;
+    color: #000;
+}
+
+.pagination li.active{
+    background-color: #800000;
+}
+
+.tooltipped{
+    cursor: pointer;
+}
+
+.tabs .tab a{
+    color: #800000;
+    opacity: 0.7;
+}
+
+
+.tabs .tab a:hover{
+    color: #800000;
+    opacity: 0.5;
+}
+
+.tabs .tab a.active{
+    color: #800000;
+    opacity: 1;
+}
+
+.tabs li.indicator{
+    background-color: #800000;
+}
+
+.clear-filter {
+    margin-top: 35%;
+    font-size: 3rem !important;
+}
